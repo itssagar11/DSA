@@ -5,8 +5,9 @@ class Main{
          obj.insert("shree");
          obj.insert("shreeram");
           System.out.println(obj.search("shree") );
-          obj.delete("shree");
+        //   obj.delete("shree");
          
           System.out.println(obj.search("shree") );
+         obj.autoComplete("s");
       }
 }
